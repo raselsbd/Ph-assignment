@@ -1,0 +1,97 @@
+
+.reach-container
+{
+    margin: 40px 200px;
+}
+.rech-1
+{
+    text-align: center;
+    gap: 90px;
+    margin: 40px 0px;
+    
+}
+.rech-1 h1
+{
+    font-size: 40px;
+    margin: 20px 0px;
+}
+.reach-2
+{
+
+    height: 100%;
+    background: #FD6F001A;
+    padding: 40px 150px;
+    
+    
+}
+.reach-section-1
+{
+    
+    padding: 20px 60px;
+    
+
+}
+.reach-iteam
+{
+    margin-top: 30px;
+    display: flex;
+    gap: 70px;
+    
+}
+.reach-iteam-1
+{
+    
+    width: 50%;
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+}
+.reach-iteam-2
+{
+    width: 50%;
+   border-bottom: 1px solid;
+   padding-bottom: 20px;
+}
+.reach-iteams
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid;
+}
+.reach-iteam-3
+{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+.reach-button
+{
+    
+    
+    
+    margin-top: 30px;
+
+}
+.reach-button button
+{
+    background-color: #FD6F00;
+    width: 183px;
+    height: 56px;
+   
+}
+
+@media only screen and (max-width: 1200px) {
+    .reach-container {
+        margin: 40px 100px;
+    }
+}
+
+/* For Tablets and Mobile Devices */
+@media only screen and (max-width: 768px) {
+    .reach-container {
+        margin: 30px;
+    }
+
+    .reach-2 {
+        padding: 40px;
+    }
+}

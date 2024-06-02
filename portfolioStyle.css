@@ -1,0 +1,184 @@
+
+.portfolio-container
+{
+    height: 100%;
+    margin: 60px 200px;
+    
+}
+.portfolio
+{
+    text-align: center;
+}
+.portfolio-text
+{
+    text-transform: uppercase;
+    font-size: large;
+    padding-bottom: 20px;
+}
+.text-sm small
+{
+    color: #FFFFFF80;
+    
+
+}
+.portfolio-item
+{
+    
+    margin: 40px 20px;
+   
+}
+
+.iteam-1 a
+{
+    text-decoration: none;
+    
+    padding: 0px 10px;
+}
+.iteam-1-button1
+{
+    background-color: black;
+}
+.item1-button2
+{
+    background-color: #FD6F00;
+}
+
+.iteam-2
+{
+background-color: #FD6F00;
+
+}
+.portfolio-section-1
+{
+    
+    width: 100%;
+    display: flex;
+    padding: 40px 0px;
+    
+}
+.section1
+{
+    background:black ;
+    
+   
+.section-img
+{
+    display: flex;
+    
+}
+}
+.section-1
+{
+    padding: 0px 40px;
+}
+.section-img
+{
+    position: relative;
+    width: 400px;
+    height: 344px;
+    background-color: black;
+    overflow: hidden;
+}
+.image1,
+.image2
+{
+    position: absolute;
+}
+.image1 {
+    width: 220px;
+    height: 400px;
+    z-index: 1;
+    right: 10%;
+}
+.image2 {
+    width: 220px;
+    height: 450px;
+    z-index: 2;
+    top: 25%;
+}
+.section-1 h1
+{
+    font-size: 35px;
+    margin: 20px 0px;
+}
+.section-1 small
+{
+    color: #FFFFFF80;
+}
+.portfolio-section-2
+{
+    height: 100%;
+    margin-top: 40px;
+    display: flex;
+}
+section-2
+{
+    background-color: black;
+    width: 50%;
+   
+}
+.section-2 h1
+{
+    font-size: 35px;
+    margin: 20px 0px;
+}
+.section-2 small
+{
+    color: #FFFFFF80;
+}
+
+.section-2-1
+{
+    
+    padding: 40px 40px;
+   
+}
+.section-2-img
+{
+    
+    width: 50%;
+    background-color: black;
+    
+   
+}
+.section-img-2
+{
+    position: relative;
+    width: 400px;
+    height: 344px;
+    background-color: black;
+    overflow: hidden;
+}
+.image1,
+.image2
+{
+    position: absolute;
+}
+.image1 {
+    width: 220px;
+    height: 400px;
+    z-index: 1;
+    right: 10%;
+}
+.image2 {
+    width: 220px;
+    height: 450px;
+    z-index: 2;
+    top: 25%;
+}
+@media only screen and (min-width: 200px) and (max-width:576px)
+{
+    .portfolio-container {
+        margin: 30px;
+    }
+
+    .portfolio-section-1, .portfolio-section-2 {
+        flex-direction: column;
+    }
+
+    .section1, section-2 {
+        width: 100%;
+    }
+
+}
+

@@ -1,0 +1,69 @@
+
+.award-container
+{
+    height: 100%;
+    margin: 80px 200px;
+    
+}
+.award
+{
+    
+    text-align: center;
+}
+.award p
+{
+    color: #FFFFFF80;
+    ;
+}
+.award h1
+{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+.award-1
+{
+    margin: 20px 0px;
+    background-color: #000000;
+    
+    
+}
+.awards1
+{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    padding-bottom: 20px;
+}
+.awards1 p
+{
+    font-size: 26px;
+    padding-bottom: 20px;
+}
+.award-para
+{
+    padding: 20px 40px;
+    
+}
+.award-para small
+{
+    color: #FFFFFF80;
+}
+
+@media only screen and (max-width: 768px) {
+    .award-container {
+        margin: 40px;
+    }
+}
+
+/* For Mobile Devices */
+@media only screen and (max-width: 576px) {
+    .awards1 p {
+        font-size: 20px;
+    }
+
+    .award h1 {
+        font-size: 16px;
+    }
+}
